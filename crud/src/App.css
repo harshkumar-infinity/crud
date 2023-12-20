@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 100vh !important;
+  padding: 7vh 15vh 10vh 15vh !important;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px grey;
+}
+
+.input {
+  width: 100%;
+}
+
+.arrange {
+  margin-top: -1vh;
+  font-size: 17px;
+
+}
+
+.sign-btn {
+  font-size: 17px;
+  font-weight: 600 !important;
+  border: none;
+  background: none;
+  color: #0A59CB;
+  transition: 1s all;
+}
+
+.sign-btn:hover {
+  background-color: rgba(227, 226, 226, 0.4);
+}
+
+.create-btn {
+  width: 100%;
+}
+
+.google-btn {
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+img {
+  height: 2.3vh;
+  width: auto;
+}
+
+.checkbox {
+  margin-left: 2vh;
+  margin-top: 1vh;
+}
+
+.notFoundImg {
+  height: 50vh;
+  width: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
